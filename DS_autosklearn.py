@@ -35,7 +35,7 @@ features_to_fit = ['MA_5', 'MA_20', 'MA_50', 'Adj_Close']
 X = df[features_to_fit]
 Y = df['Prediction']
 
-# Split the data into 80% training and 20% testing
+# Split the data into 70% training and 30% testing
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, shuffle=False)
 
 automl = autosklearn.regression.AutoSklearnRegressor(per_run_time_limit=30, 
