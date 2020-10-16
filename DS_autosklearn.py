@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import autosklearn.regression
 import sklearn.metrics
-
-from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
 
